@@ -7,7 +7,8 @@
     "lint": "oxlint --quiet",
     "test:unit": "cd integration-tests && bun run test:unit",
     "test:integration:http": "cd integration-tests && bun run test:integration:http"
-   "resolutions": {
+  },
+  "resolutions": {
     "commander": "^12.1.0"
   },
   "dependencies": {
@@ -27,7 +28,7 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "yarn@1.22.22",
+  "packageManager": "yarn@4.18.0",
   "workspaces": [
     "apps/*",
     "packages/*",
