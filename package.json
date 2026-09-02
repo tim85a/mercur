@@ -1,9 +1,4 @@
 {
-  "resolutions": {
-    "commander": "^12.1.0"
-  }
-}
-{
   "name": "mercur",
   "private": true,
   "scripts": {
@@ -12,6 +7,8 @@
     "lint": "oxlint --quiet",
     "test:unit": "cd integration-tests && bun run test:unit",
     "test:integration:http": "cd integration-tests && bun run test:integration:http"
+   "resolutions": {
+    "commander": "^12.1.0"
   },
   "dependencies": {
     "@mercurjs/core": "*"
