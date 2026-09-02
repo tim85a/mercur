@@ -1,4 +1,9 @@
 {
+  "resolutions": {
+    "commander": "^12.1.0"
+  }
+}
+{
   "name": "mercur",
   "private": true,
   "scripts": {
